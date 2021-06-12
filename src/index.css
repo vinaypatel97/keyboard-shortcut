@@ -1,13 +1,112 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+:root {
+  --primary: #c36f69;
+  --secondary: #4e4e4e;
+  --error: #ff4a4a;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* base styles & title */
+
+body {
+  font-family: "Noto Serif";
+  color: var(--secondary);
+  background-color: #2185d0
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 40px;
+  height: 100vh;
+  z-index: 1000;
+}
+
+h1 {
+  align-content: center;
+}
+
+.dFlex {
+  display: flex;
+}
+
+.sb {
+  justify-content: space-between;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.ac {
+  align-items: center;
+}
+
+.margin10 {
+  margin: 10px;
+}
+
+.screen-grid {
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 40px;
+}
+
+.font30 {
+  font-size: 30px;
+}
+
+.screen-wrap {
+  overflow: hidden;
+  height: 250px;
+  padding: 30px;
+  position: relative;
+  opacity: 0.8;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: center;
+}
+
+.light1 {
+  line-height: 1;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bb {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #2185d0;
+}
+
+.marginT50 {
+  margin-top: 50px;
+}
+
+.bb5 {
+  padding-bottom: 5px;
+  border-bottom: 5px solid #2185d0;
+}
+
+.cp {
+  cursor: pointer;
+}
+
+.displayBox {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  width: 400px;
+  margin: auto !important;
+}
+
+.width50 {
+  width: 50%;
+  margin: 15px auto !important;
+}
+
+.marginTB20 {
+  margin: 20px 0px;
 }
