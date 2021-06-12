@@ -9,9 +9,7 @@ function App() {
       <Router>
         <h1 className="bb5">Keyboard Shortcut Library</h1>
         <Switch>
-          <Route exact path='/'>
-            <MainContainer />
-          </Route>
+          <Route exact path='/' render={(props) => (<MainContainer{...props} />)} />
           <Route exact path='/screen/:id' render={(props) => (<Screen{...props} />)} />
           <Screen />
         </Switch>
