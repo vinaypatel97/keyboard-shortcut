@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/keyboard-shortcut/static/css/main.b316ed14.chunk.css",
-    "main.js": "/keyboard-shortcut/static/js/main.6ec4e2a1.chunk.js",
-    "main.js.map": "/keyboard-shortcut/static/js/main.6ec4e2a1.chunk.js.map",
+    "main.js": "/keyboard-shortcut/static/js/main.7b8a5766.chunk.js",
+    "main.js.map": "/keyboard-shortcut/static/js/main.7b8a5766.chunk.js.map",
     "runtime-main.js": "/keyboard-shortcut/static/js/runtime-main.1051eba6.js",
     "runtime-main.js.map": "/keyboard-shortcut/static/js/runtime-main.1051eba6.js.map",
-    "static/js/2.e2c0673a.chunk.js": "/keyboard-shortcut/static/js/2.e2c0673a.chunk.js",
-    "static/js/2.e2c0673a.chunk.js.map": "/keyboard-shortcut/static/js/2.e2c0673a.chunk.js.map",
+    "static/js/2.616ff509.chunk.js": "/keyboard-shortcut/static/js/2.616ff509.chunk.js",
+    "static/js/2.616ff509.chunk.js.map": "/keyboard-shortcut/static/js/2.616ff509.chunk.js.map",
     "index.html": "/keyboard-shortcut/index.html",
     "static/css/main.b316ed14.chunk.css.map": "/keyboard-shortcut/static/css/main.b316ed14.chunk.css.map",
-    "static/js/2.e2c0673a.chunk.js.LICENSE.txt": "/keyboard-shortcut/static/js/2.e2c0673a.chunk.js.LICENSE.txt"
+    "static/js/2.616ff509.chunk.js.LICENSE.txt": "/keyboard-shortcut/static/js/2.616ff509.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1051eba6.js",
-    "static/js/2.e2c0673a.chunk.js",
+    "static/js/2.616ff509.chunk.js",
     "static/css/main.b316ed14.chunk.css",
-    "static/js/main.6ec4e2a1.chunk.js"
+    "static/js/main.7b8a5766.chunk.js"
   ]
 }
